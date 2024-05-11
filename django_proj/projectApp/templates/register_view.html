@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html>
+<body>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pythonuser</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    
+
+<nav class="navbar bg-dark navbar-dark">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Python Knowledge Share</span>
+   
+    <a href="/login/" class="btn btn-success btn-lg">Back To Login </a>
+  </div>
+</nav></body>
+</html>
+
+<div class="main">
+ ! User Details ! <br/>
+ ------------------------------------------
+ <br/><br/>
+    {% for data in dataset %}
+    Email ID - {{ data.email }}<br/>
+    Password - {{ data.password }}<br/>
+    First Name - {{ data.firstname }}<br/>
+    Last Name - {{ data.lastname}}<br/> 
+    Contact Number - {{ data.contactnumber}}<br/>
+    Description - {{ data.description}}<br/>
+    
+    <hr/>
+ 
+    {% endfor %}
+ 
+</div>
