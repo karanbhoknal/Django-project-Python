@@ -49,17 +49,18 @@ A template consists of static parts of the desired HTML output as well as some s
 #Installation and Setup of Django Project
 Install python3 if not installed in your system download the latest version of python it’s python 3.11.0 this time.
 
-open the command prompt and make directory folder
+# open the command prompt and make directory folder or vscode
+
 mkdir Django_project
 
-3.Setting up the Virtual Environment
+# 3.Setting up the Virtual Environment
 Create virtual environment in django: We should first go the directory where we want to createthe virtual environment then we type the following command to create virtual environment in django
 
-1.It is create venv in Django project directory
+# 1.It is create venv in Django project directory
 
 python -m venv .venv
 
-2.It is Activate the venv in Django project directory
+# 2.It is Activate the venv in Django project directory
 
 .venv\Scripts\Activate [for Windows]
 
@@ -67,20 +68,26 @@ For MacOs/Linux:
 
 source env_site/bin/activate
 
-5 .Install Django: Install django by giving following command
+# 5 .Install Django: Install django by giving following command
+
 Command => pip install django
 
-Start a project by following command
+# Start a project by following command
+
 django-admin startproject django_proj
 
-7.Change directory to django_proj
+# 7.Change directory to django_proj
+
 cd django_proj
 
-8.Create an empty development database by running the following command
+# 8.Create an empty development database by running the following command
+
 python manage.py migrate [db.sqlit3]
 
-9.Start the server- Start the server by typing following command in cmd-
+# 9.Start the server- Start the server by typing following command in cmd-
+
 python manage.py runserver
 
-Open the folder Django project in Vscode & hit this command
+# Open the folder Django project in Vscode & hit this command
+
 python manage.py startapp projectApp
