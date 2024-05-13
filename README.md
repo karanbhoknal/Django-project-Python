@@ -1,6 +1,6 @@
 # Django-project-Python
 
-Project Nmae : Python Knowledge Share site
+Project Name : Python Knowledge Share site
 
 # INTRODUCTION
 
